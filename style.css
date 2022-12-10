@@ -1,0 +1,235 @@
+* {
+    /* border: 1px solid red;  */
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+    background-color:rgba(14, 14, 15, 0.826);
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 110%;
+    text-shadow: -1px 1px 2px rgb(126, 109, 109),
+    1px  1px  0 rgb(118, 100, 100),
+    1px -1px  0 rgb(91, 74, 74),
+    -1px -1px 0 rgb(89, 75, 75);
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    text-shadow: -1px 1px 2px rgb(0, 0, 0),
+    1px  1px  0 rgb(111, 96, 96),
+    1px -1px  0 rgb(85, 73, 73),
+    -1px -1px 0 rgb(120, 97, 97);
+}
+
+a { 
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(220, 139, 139)
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    height: 115%;
+    position: fixed;
+    margin-top: -100px;
+}
+
+.landingpage {
+    z-index: 1;
+    height: 19em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 3em;
+    text-shadow: -1px 1px 2px rgb(0, 0, 0),
+                  1px  1px  0 rgb(103, 92, 92),
+                  1px -1px  0 rgb(132, 115, 115),
+                  -1px -1px 0 rgb(125, 97, 97);
+}
+
+
+.main-tile-dimension {
+    width: 100%;
+    height: 110%;
+    background-color: rgba(190, 102, 102, 0.228);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    padding-bottom: 20px;
+}
+
+.activities {
+    color: white;
+    margin-top: 5%;
+    text-shadow: -1px 1px 2px rgb(0, 0, 0),
+    1px  1px  0 #000,
+    1px -1px  0 #000,
+    -1px -1px 0 #000;
+    text-align: center;
+}
+
+.activity-container {
+    background-color: rgba(220, 139, 139, 0.356);
+    padding: 5%;
+    border-radius: 20%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    margin-left: 10%;
+}
+
+td, th {
+    border: 1px solid;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.wrap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 60px;
+}
+
+.box {
+    max-width: 300px;
+    height: auto;
+    background-color: rgba(206, 175, 175, 0.5);
+}
+
+.gallery {
+    object-fit: cover;
+    max-width: 200px;
+    height: auto;
+    flex-direction: row;
+}
+.grid-text {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    margin-bottom: 4px;
+}
+
+.bottom {
+    background-color: rgba(0, 0, 0, 0.621);
+    color: white;
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.mapping {
+    width: 225px;
+    padding: 2%;
+    padding-left: 50%;
+    padding-bottom: 25px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    margin-left: 25%;
+}
+
+.foothead {
+    font-size: 2em;
+    display: left;
+    text-shadow: -1px 1px 2px rgb(0, 0, 0),
+    1px  1px  0 #000,
+    1px -1px  0 #000,
+    -1px -1px 0 #000;
+    text-align: center;
+}
+
+.tiny {
+    margin: 5pm;
+    display: flex;
+    margin-top: 75px;
+    margin-left: 25px;
+}
+.center {
+    display: table-row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-shadow: -1px 1px 2px rgb(0, 0, 0),
+    1px  1px  0 #000,
+    1px -1px  0 #000,
+    -1px -1px 0 #000;
+}
+.text{
+    text-align: center;
+    color: white;
+    text-shadow: -1px 1px 2px rgb(0, 0, 0),
+    1px  1px  0 #000,
+    1px -1px  0 #000,
+    -1px -1px 0 #000;
+}
